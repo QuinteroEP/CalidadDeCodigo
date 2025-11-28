@@ -24,6 +24,8 @@ jobs:
         with:
           pr-mode: false
           use-qodana-yaml: true
+          project-dir: demo
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_1305584834 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
+          QODANA_LOG_LEVEL: debug 
