@@ -7,10 +7,8 @@ import java.nio.file.Files;
 public class Main {
     public static void main(String[] args) {
         double a, b, c, d;
-
+        c = 0;
         c = c;
-
-        int rand = Math.random();
 
         Scanner sc = new Scanner(System.in);
 
